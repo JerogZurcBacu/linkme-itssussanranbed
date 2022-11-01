@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*
@@ -86,6 +87,166 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/*Inicio Código*/
+
+/*
+* Contenedores basicos
+*/
+
+.contenedor {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#cont_principal {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#encabezado {
+  background-color: #FFF1FB;
+  background-image: url(../img/Letrero_nombre_isr.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20vh;
+}
+
+#cuerpo {
+  width: 100vw;
+  max-width: 400px;
+  height: auto;
+  padding: 15vh 0 0 0;
+  position: absolute;
+  top: 0;
+}
+
+/*
+* Cuerpo
+*/
+
+.circulo {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#circulo_cont_foto_bgcolor {
+  width: 20vh;
+  height: 20vh;
+  background-color: #AA7BCB;
+}
+
+#circulo_cont_foto_bgblanco {
+  width: 18vh;
+  height: 18vh;
+  background-color: white ;
+}
+
+#circulo_cont_foto {
+  width: 16vh;
+  height: 16vh;
+  background-image: url(../img/Foto_perfil_isr.jpeg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+/*
+* Botones 
+*/
+
+#link_boton {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.boton {
+  width: 70%;
+  height: 8vh;
+  background-color: #AA7BCB;
+  border-radius: 50px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-shadow: 2px 2px 2px 1px rgba(255, 241, 251, 0.8);
+}
+
+#cont_logo {
+  width: 7vh;
+  height: 7vh;
+  margin: .5vh;
+  border-radius: 50%;
+  background-color: #FFF1FB;
+}
+
+.rectangulo {
+  width: 90vw;
+  max-width: 400px;
+  height: 25vh;
+  border-radius: 10px;
+  background-color: gray;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-image: url(../img/BG_CE.png);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#cont_texto_icon {
+  color: white;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#icono {
+  width: 5vw;
+  height: 5vw;
+  background-color: white;
+}
+
+/*
+* Estilos
+*/
+
+a {
+  text-decoration: none;
+}
+
+#slogan {
+  margin: 0;
+  width: 70%;
+  text-align: center;
+}
+
+h3 {
+  margin: auto 10px;
+}
+
+.circulo i {
+  font-size: 30px;
+  color: #AA7BCB;
+}
+
+#cta_link_bio {
+  color: rgba(0, 0, 0, 0.2);
+}
 
 /* ==========================================================================
    Helper classes
